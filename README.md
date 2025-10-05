@@ -13,10 +13,11 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Bernardo Melges dos Anjos
+- Matricula: 897998
+- Proposta de projeto escolhida: Pessoas e Produções 
+- Breve descrição sobre seu projeto: O projeto é a criação de um site de procura de artistas, porém a homepage criada será relacionada ao artista Fabricio Soares Teixeira, mais conhecido como FBC, que ganhou notoriedade no nicho do rap. Ademais, o site vai abordar sua bibliografia e discografia. 
+Nesta versão, o site ganhou alguns detalhes a mais, e tornou-se responsivo. Através de recursos obtidos no Bootstrap.
 
 ## Print da Home-Page
 
