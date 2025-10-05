@@ -11,13 +11,15 @@
 <body>
     <header>
         <section class="login">
-            <div class="loginbar" style="position:absolute; right: 10px;">
-                <form class="login-form" onsubmit="return loginUser(event)">
-                    <input type="text" id="username" placeholder="Usuário" required>
-                    <input type="password" id="password" placeholder="Senha" required>
-                    <button type="submit">Entrar</button>
-                    <p id="login-message"></p>
-            </div>
+            <nav>
+                <div class="login-box">
+                    <form>
+                        <input type="email" placeholder="E-mail" required />
+                        <input type="password" placeholder="Senha" required />
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
+            </nav>
         </section>
         <nav class="navbar">
             <div class="container-fluid">
@@ -106,39 +108,39 @@
     </section>
     <section id="disco" class="albuns">
         <h2>Discografia</h2>
-    <script src="app.js"></script>
-<script src="app.js"></script>
-<script>
-  const container = document.querySelector(".albuns");
+        <script src="app.js"></script>
+        <script src="app.js"></script>
+        <script>
+            const container = document.querySelector(".albuns");
 
-  albuns.forEach(album => {
-    const link = document.createElement("a");
-    link.href = `detalhes.html?id=${album.id}`;
-    link.style.textDecoration = "none";
-    link.style.color = "inherit";
+            albuns.forEach(album => {
+                const link = document.createElement("a");
+                link.href = `detalhes.html?id=${album.id}`;
+                link.style.textDecoration = "none";
+                link.style.color = "inherit";
 
-    const card = document.createElement("span");
-    card.className = "album";
+                const card = document.createElement("span");
+                card.className = "album";
 
-    card.innerHTML = `
+                card.innerHTML = `
       <img src="${album.imagem}" alt="Capa ${album.titulo}">
       <h3 style="color:#00ac2b;">${album.titulo}</h3>
     `;
 
-    link.appendChild(card);
-    container.appendChild(link);
-  });
-</script>
-<footer>
-        <span class="social">
-            <img src="/public/images/insta.png" alt="Insta">
-            <a href="https://www.instagram.com/fbctadoido" target="_blank">Instagram</a> |
-            <a href="https://twitter.com/fbctadoido" target="_blank">X</a> |
-            <img src="/public/images/Spotifyicon.png" alt="Spotify">
-            <a href="https://open.spotify.com/intl-pt/artist/29QKtXMaVczUBDiI3aPBWS?si=pTO-4ahlRbmnj0VOm57Ccw"
-                target="_blank">Spotify</a>
-            </div>
-    </footer>
+                link.appendChild(card);
+                container.appendChild(link);
+            });
+        </script>
+        <footer>
+            <span class="social">
+                <img src="/public/images/insta.png" alt="Insta">
+                <a href="https://www.instagram.com/fbctadoido" target="_blank">Instagram</a> |
+                <a href="https://twitter.com/fbctadoido" target="_blank">X</a> |
+                <img src="/public/images/Spotifyicon.png" alt="Spotify">
+                <a href="https://open.spotify.com/intl-pt/artist/29QKtXMaVczUBDiI3aPBWS?si=pTO-4ahlRbmnj0VOm57Ccw"
+                    target="_blank">Spotify</a>
+                </div>
+        </footer>
 </body>
 
 
