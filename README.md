@@ -21,11 +21,16 @@ Nesta versão, o site ganhou alguns detalhes a mais, e tornou-se responsivo. Atr
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<![Print HomePage](public/images/print1.png)>>
+<<![Print HomePage](public/images/print2.png)>>
+<<![Print HomePage](public/images/print3.png)>>
+<<![Print HomePage Responsiva](public/images/reposividade.png)>>
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<![Print Detalhes](public/images/detalhes1.png)>>
+<<![Print Detalhes](public/images/detalhes2.png)>>
+
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
