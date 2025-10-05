@@ -24,7 +24,7 @@ Nesta versão, o site ganhou alguns detalhes a mais, e tornou-se responsivo. Atr
 <<![Print HomePage](public/images/print1.png)>>
 <<![Print HomePage](public/images/print2.png)>>
 <<![Print HomePage](public/images/print3.png)>>
-<<![Print HomePage Responsiva](public/images/reposividade.png)>>
+<<![Print HomePage Responsiva](public/images/resposividade.png)>>
 
 ## Print da página de detalhes do item
 
