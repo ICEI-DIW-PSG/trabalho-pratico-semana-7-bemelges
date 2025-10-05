@@ -16,18 +16,28 @@
   const album = albuns.find(a => a.id === id);
 
   if (album) {
-    document.getElementById("detalhes").innerHTML = `
+    let html = `
       <h2>${album.titulo} (${album.ano})</h2>
       <img src="${album.imagem}" alt="Capa do álbum ${album.titulo}">
       <p><strong>Estilo:</strong> ${album.estilo}</p>
       <p><strong>Destaque:</strong> ${album.destaque}</p>
       <p>${album.descricao}</p>
-      <a href="index.html">← Voltar</a>
     `;
+    if (album.faixas && album.faixas.length > 0) {
+      html += `<h3>Faixas:</h3><ul>`;
+      album.faixas.forEach(faixa => {
+        html += `<li>${faixa}</li>`;
+      });
+      html += `</ul>`;
+    }
+
+    html += `<a href="index.html">← Voltar</a>`;
+    document.getElementById("detalhes").innerHTML = html;
   } else {
     document.getElementById("detalhes").innerHTML = `<p>Álbum não encontrado.</p>`;
   }
 </script>
+
 
 </body>
 </html>

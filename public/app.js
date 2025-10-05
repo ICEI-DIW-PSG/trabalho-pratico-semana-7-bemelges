@@ -2,11 +2,21 @@ const albuns = [
   {
     id: 1,
     titulo: "S.C.A.",
-    descricao: "Primeiro álbum, considerado um clássico do rap underground mineiro.",
+    descricao: "S.C.A. é o álbum de estreia do rapper, lançado em 2018, que significa Sexo, Cocaína e Assassinatos. O disco se destaca pela produção que mescla elementos de hip-hop 'old school' com uma lírica afiada, abordando temas como a realidade das periferias, a luta por ascensão social e a crítica ao sistema. A capa do álbum é uma releitura de 'INRI', um clássico da banda de metal Sarcófago, e o trabalho foi visto como uma demarcação de território do artista na cena musica ",
     imagem: "/public/images/sca.jpg",
     ano: 2018,
     estilo: "Rap underground",
-    destaque: "Clássico mineiro"
+    destaque: "Clássico mineiro",
+    faixas: ["Frank & Tikão",
+      "Não Duvide",
+      "Rap Acústico",
+      "17 Anos",
+      "Superstar",
+      "Ela é Green",
+      "Itinerário de I.O",
+      "Contradições",
+      "Sexo, Cocaína e Assassinatos",
+      "Poder, Pt. 2"]
   },
   {
     id: 2,
@@ -15,7 +25,17 @@ const albuns = [
     imagem: "/public/images/padrim.jpg",
     ano: 2019,
     estilo: "Trap",
-    destaque: "Trabalho maduro"
+    destaque: "Trabalho maduro",
+    faixas: ["Deus Abençoa",
+      "Money Manin",
+      "Assim Que Se Sente",
+      "Capa 3 (feat. Lallo)",
+      "IPhone (feat. Matheus Queiroz)",
+      "Confio (feat. Ebony)",
+      "THC (feat. Attlanta e Luccas Carlos)",
+      "$Enhor (feat. L7NNON e BK)",
+      "Se Eu Não Te Cantar",
+      "Ode À Tristeza (feat. Gee Rocha)"]
   },
   {
     id: 3,
@@ -24,7 +44,11 @@ const albuns = [
     imagem: "/public/images/bestduo.jpg",
     ano: 2020,
     estilo: "Experimental",
-    destaque: "Colaborações e inovação"
+    destaque: "Colaborações e inovação",
+    faixas: ["Intro Duo",
+      "FBC & Coyote",
+      "Pra Você",
+      "Batida Suave"]
   },
   {
     id: 4,
@@ -33,7 +57,11 @@ const albuns = [
     imagem: "/public/images/outrorole.jpg",
     ano: 2021,
     estilo: "Drill e percussão",
-    destaque: "Resgate das raízes"
+    destaque: "Resgate das raízes",
+    faixas: ["Rolê 1",
+      "DV Tribo",
+      "Atabaque Urbano",
+      "Noite de BH"]
   },
   {
     id: 5,
@@ -42,7 +70,17 @@ const albuns = [
     imagem: "/public/images/baile.jpg",
     ano: 2021,
     estilo: "Miami Bass / Funk 90",
-    destaque: "Sucesso nacional"
+    destaque: "Sucesso nacional",
+    faixas: ["Vem Pro Baile",
+      "Quando o DJ Toca (feat. UANA)",
+      "Rap da UFFÉ",
+      "Melô do Vacilão (feat. Djair Voz Cristalina e FERB)",
+      "Se Tá Solteira (feat. VHOOR e MAC Júlia)",
+      "Eu Sou o Crime",
+      "Delírios (feat. VHOOR)",
+      "Não Dá Pra Explicar",
+      "Polícia Covarde",
+      "De Kenner (feat. VHOOR)"]
   },
   {
     id: 6,
@@ -51,7 +89,22 @@ const albuns = [
     imagem: "/public/images/amor-tec.jpg",
     ano: 2023,
     estilo: "House / Funk sintético",
-    destaque: "Viagem sonora retrô"
+    destaque: "Viagem sonora retrô",
+    faixas: ["Madrugada Maldita",
+      "Estante de Livros (feat. Don L)",
+      "Químico Amor",
+      "O Que Te Faz Ir Pra Outro Planeta?",
+      "Limite Comum (feat. Pepito)",
+      "Dilema das Redes (feat. niLL)",
+      "Antissocial (feat. Abbot)",
+      "Não Me Ligue Nunca Mais (feat. Abbot)",
+      "Cherry (feat. Abbot)",
+      "A Noite no Meu Quarto (feat. Abbot)",
+      "Atmosfera",
+      "Aham",
+      "Qual a Chance?",
+      "O Nosso Grande Papel",
+      "Desculpa"]
   },
   {
     id: 7,
@@ -60,7 +113,12 @@ const albuns = [
     imagem: "/public/images/feitoamao.jpg",
     ano: 2024,
     estilo: "Rap instrumental",
-    destaque: "Produção refinada"
+    destaque: "Produção refinada",
+    faixas: ["O Retorno É a Única Lei (feat. Dougnow)",
+      "Não Deixa Secar (feat. Pepito)",
+      "Rap Bom",
+      "Vontade",
+      "Feito À Mão"]
   },
   {
     id: 8,
@@ -69,6 +127,17 @@ const albuns = [
     imagem: "/public/images/assaltos.jpg",
     ano: 2025,
     estilo: "Boombap clássico",
-    destaque: "Crítica e nostalgia"
+    destaque: "Crítica e nostalgia",
+    faixas: ["Cabana Terminal",
+      "Quem Sabe Onde Está Jimmy Hoffa?",
+      "Qual o Som da Sua Arma?",
+      "A Voz da Revolução",
+      "Você Pra Mim É Lucro",
+      "Roubo a Banco",
+      "Juventude Atitude",
+      "Assaltos e Batidas",
+      "Estamos Te Vendo",
+      "Me Diga Quem Ganha",
+      "A Cosmologia Corporativista do Senhor Arthur Jansen"]
   }
 ];

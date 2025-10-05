@@ -107,19 +107,27 @@
     <section id="disco" class="albuns">
         <h2>Discografia</h2>
     <script src="app.js"></script>
+<script src="app.js"></script>
 <script>
-    const container = document.querySelector(".albuns");
-    albuns.forEach(album => {
-        const card = document.createElement("span");
-        card.className = "album";
-        card.innerHTML = `
-      <a href="detalhes.html?id=${album.id}">
-        <img src="${album.imagem}" alt="Capa ${album.titulo}">
-        <p>${album.titulo} (${album.ano}) – ${album.descricao}</p>
-      </a>
+  const container = document.querySelector(".albuns");
+
+  albuns.forEach(album => {
+    const link = document.createElement("a");
+    link.href = `detalhes.html?id=${album.id}`;
+    link.style.textDecoration = "none";
+    link.style.color = "inherit";
+
+    const card = document.createElement("span");
+    card.className = "album";
+
+    card.innerHTML = `
+      <img src="${album.imagem}" alt="Capa ${album.titulo}">
+      <h3 style="color:#00ac2b;">${album.titulo}</h3>
     `;
-        container.appendChild(card);
-    });
+
+    link.appendChild(card);
+    container.appendChild(link);
+  });
 </script>
 <footer>
         <span class="social">
