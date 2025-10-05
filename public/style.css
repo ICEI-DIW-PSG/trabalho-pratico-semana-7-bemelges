@@ -257,3 +257,44 @@ footer p {
   font-size: 10px;
   color: #777;
 }
+
+/* Página de Detalhes */
+#detalhes {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #1c1c1c;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 172, 43, 0.3);
+  text-align: center;
+}
+
+#detalhes h2 {
+  color: #00ac2b;
+  margin-bottom: 1rem;
+}
+
+#detalhes img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+#detalhes p {
+  margin-bottom: 1rem;
+  color: #ddd;
+  font-size: 1rem;
+}
+
+#detalhes a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #00ac2b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#detalhes a:hover {
+  color: #32ff65;
+}
